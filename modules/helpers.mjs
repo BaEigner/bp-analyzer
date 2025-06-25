@@ -259,7 +259,7 @@ export function createSimpleChart(container, data, title, hasAVG) {
         },
         marker: {   
             color: data.map(e => bloodPressureCategories[e.eval].color),
-            size: 15
+            size: 10
         },
         text: data.map(e => e.SYS + '/' + e.DIA + ' (' + e.Pulse + ' bpm)')
     },{
